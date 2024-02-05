@@ -1,0 +1,97 @@
+body {
+  background: #c2c2d6;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+  font-family: 'Arial', sans-serif;
+}
+
+.calculator {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Share Tech Mono', monospace;
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.display {
+  height: 50px;
+  background-color: #f1f1f1;
+  line-height: 50px;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-family: 'Digital', sans-serif;
+  border-radius: 5px;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulaScreen {
+  min-height: 20px;
+  font-family: 'Digital', sans-serif;
+  font-size: 20px;
+  color: orange;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.outputScreen {
+  font-size: 29px;
+  font-family: 'Digital', sans-serif;
+  color: white;
+  text-align: right;
+  line-height: 35px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 2px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: black;
+  outline: 0.05em solid blue;
+  z-index: 3;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+.author {
+  text-align: center;
+  font-family: 'Share Tech Mono', sans-serif;
+  margin-top: 15px;
+}
+
+.author a {
+  text-decoration: none;
+  color: #00264d;
+  line-height: 26px;
+}
+
